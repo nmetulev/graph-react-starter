@@ -9,7 +9,7 @@ import { Message, User } from '@microsoft/microsoft-graph-types'
 function App() {
 
   const [isSignedIn] = useIsSignedIn();
-  const [user] = useGet<User>('/me');
+  const [user, userLoading ] = useGet<User>('/me');
 
   return (
     <div className="App">
@@ -18,8 +18,11 @@ function App() {
       </header>
       {isSignedIn &&
         <div>
-          <h3> Hello {user?.displayName},</h3>
-          <h5> Here are your messages! </h5>
+          { !userLoading && <div>
+              <h3> Hello {user?.displayName},</h3>
+              <h5> Here are your messages! </h5>
+            </div>
+          }
           <Mail></Mail>
         </div>
       }

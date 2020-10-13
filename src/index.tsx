@@ -8,7 +8,7 @@ import {Providers, MsalProvider} from '@microsoft/mgt';
 
 Providers.globalProvider = new MsalProvider({
   clientId: 'a974dfa0-9f57-49b9-95db-90f04ce2111a',
-  scopes: ["User.Read", "Mail.Read"]
+  scopes: ["User.Read", "People.Read", "Contacts.Read", "User.ReadBasic.All", "Mail.Read"]
 });
 
 ReactDOM.render(
