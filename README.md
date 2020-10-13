@@ -1,6 +1,12 @@
 
 # Microsoft Graph React template
 
+This sample demonstrate how to build a React web app that calls the Microsoft Graph. It is built with [Fluent UI](https://developer.microsoft.com/en-us/fluentui#/) and [Microsoft Graph Toolkit for React](https://www.npmjs.com/package/@microsoft/mgt-react) 
+
+## Authentication
+
+A client id is provided for convenience and getting started quickly. However, you should [create your own client id in the Azure Portal](https://developer.microsoft.com/en-us/microsoft-365/blogs/a-lap-around-microsoft-graph-toolkit-day-2-zero-to-hero/) and replace it in `src\index.tsx`.
+
 ## Available Scripts
 
 In the project directory, you can run:
