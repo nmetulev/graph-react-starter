@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Microsoft Graph React template
 
 ## Available Scripts
 
@@ -39,6 +40,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+To learn about Fluent UI, checkout out the [Fluent UI documentation](https://developer.microsoft.com/en-us/fluentui#/controls/web)
+
+To learn about the Microsoft Graph Toolkit, checkout the [Microsoft Graph Toolkit documentation](https://aka.ms/mgt-docs)
