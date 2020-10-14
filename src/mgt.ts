@@ -55,6 +55,9 @@ export function useGet<T = any>(resource: string, deps?: unknown[], options?: Ge
     return () => {
         // stop timers or unsubscribe from events here
     }
+  // TODO, figure out why adding the deps or options params here causes the 
+  // hook to execute constantly 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isSignedIn, resource]);
 
   // TODO, add function to return array to call when the dev wants to fetch more pages manually 
