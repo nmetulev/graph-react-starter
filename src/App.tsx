@@ -9,7 +9,7 @@ import { Message, User } from '@microsoft/microsoft-graph-types'
 function App() {
 
   const [isSignedIn] = useIsSignedIn();
-  const [user, userLoading ] = useGet<User>('/me');
+  // const [user, userLoading ] = useGet<User>('/me');
 
   return (
     <div className="App">
@@ -18,11 +18,11 @@ function App() {
       </header>
       {isSignedIn &&
         <div>
-          { !userLoading && <div>
+          {/* { !userLoading && <div>
               <h3> Hello {user?.displayName},</h3>
               <h5> Here are your messages! </h5>
             </div>
-          }
+          } */}
           <Mail></Mail>
         </div>
       }
@@ -32,9 +32,9 @@ function App() {
 
 function Mail() {
 
-  let [messages, messagesLoading] = useGet('/me/messages');
+  let [messages, messagesLoading] = useGet('/me/mailFolders/inbox/messages/delta?$top=20', {maxPages: 3, pollingRate: 0});
 
-  if (messagesLoading) {
+  if (messagesLoading && !messages) {
     return <Spinner size={SpinnerSize.large} label="loading messages"></Spinner>
   }
 

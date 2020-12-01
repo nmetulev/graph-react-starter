@@ -1363,31 +1363,31 @@
   resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.111.tgz#350acb13cb9c5d36bc403cdd33b4040d9458c038"
   integrity sha512-fZwqFyOmcVEyfAqyhuAsjg6XCo9lvVKyw1Nv+0JjVrZWt7AwJ2B9NcI7u6dzO2EsP8OFRQyShikpPCqaO/32lw==
 
-"@microsoft/mgt-element@~2.0.0-preview.3":
-  version "2.0.0-preview.3"
-  resolved "https://registry.yarnpkg.com/@microsoft/mgt-element/-/mgt-element-2.0.0-preview.3.tgz#75f2ae1b7b2d5467f0116a36ad0712cd5f6e3753"
-  integrity sha512-nNbUO9Oudh1TMJAO/TKrsLwYJ2DMtzEE4IbY4M1XKglfj1sYHH6JfEZkJxGs0BlZzJWFDu3Rp0cqXeuJTlzB+w==
+"@microsoft/mgt-element@2.0.0-preview.6":
+  version "2.0.0-preview.6"
+  resolved "https://registry.yarnpkg.com/@microsoft/mgt-element/-/mgt-element-2.0.0-preview.6.tgz#e02f0083be3e3c1af7b17c6b60086ff927aa45e4"
+  integrity sha512-L/mCcQ20/j/arEjzeK778D6Wzcdfufk/XjUkG/lLtkM25t1Uj0ghrE+Q3LGDsMP6loqyN4d6c9tK0h8MaBGRvA==
   dependencies:
     "@microsoft/microsoft-graph-client" "^2.0.0"
     lit-element "^2.3.1"
 
-"@microsoft/mgt-react@^2.0.0-preview.3":
-  version "2.0.0-preview.3"
-  resolved "https://registry.yarnpkg.com/@microsoft/mgt-react/-/mgt-react-2.0.0-preview.3.tgz#d6e0dbbe354892240736021f4fbab24928861232"
-  integrity sha512-vFEycgCaKkicql+6ARZf/UDPCGfzUxno0TCpwRmP053IhewDtR5a8tcaCw6FVXdpHdlTV1w76ea3n/fHZy0Jzw==
+"@microsoft/mgt-react@^2.0.0-preview.6":
+  version "2.0.0-preview.6"
+  resolved "https://registry.yarnpkg.com/@microsoft/mgt-react/-/mgt-react-2.0.0-preview.6.tgz#8cc251af06ff188155896e54206c5e0cd453fad9"
+  integrity sha512-8PWk1GFY7bCYHDyfnPb5mXhvt3s7sBEtlAapOjrGgk9vnhUcvgWIJY7J8aTmSuxsr+VVMwZ65hn81gxBTHqC6w==
   dependencies:
-    "@microsoft/mgt" "~2.0.0-preview.3"
-    "@microsoft/mgt-element" "~2.0.0-preview.3"
+    "@microsoft/mgt" "2.0.0-preview.6"
+    "@microsoft/mgt-element" "2.0.0-preview.6"
     "@microsoft/microsoft-graph-types" "^1.12.0"
     "@microsoft/microsoft-graph-types-beta" "github:microsoftgraph/msgraph-typescript-typings#beta"
     wc-react "^0.3.1"
 
-"@microsoft/mgt@^2.0.0-preview.3", "@microsoft/mgt@~2.0.0-preview.3":
-  version "2.0.0-preview.3"
-  resolved "https://registry.yarnpkg.com/@microsoft/mgt/-/mgt-2.0.0-preview.3.tgz#1cb36d81b4de441b2d3e0ee99e0b387b9a2737a2"
-  integrity sha512-XkNbZqGXz3nqVObCfaE4b/MCK2jcr5hNOIxgw0BW1G68aypjQ492rgk6g5MbeLnlTp2OBeN2nEuF70MBg7/iew==
+"@microsoft/mgt@2.0.0-preview.6", "@microsoft/mgt@^2.0.0-preview.6":
+  version "2.0.0-preview.6"
+  resolved "https://registry.yarnpkg.com/@microsoft/mgt/-/mgt-2.0.0-preview.6.tgz#09061b9b859b2b4f8b6eb9e2572cc7118a4f7a37"
+  integrity sha512-cOXbdjC1OLnKErUpAvxnSZomfjs2dK6gobXScSMb24/PJhpJja/U8181liu2aBfXpoZOjJAO1x1Ax8fL59WBaA==
   dependencies:
-    "@microsoft/mgt-element" "~2.0.0-preview.3"
+    "@microsoft/mgt-element" "2.0.0-preview.6"
     "@microsoft/microsoft-graph-client" "^2.0.0"
     "@microsoft/microsoft-graph-types" "^1.12.0"
     "@microsoft/microsoft-graph-types-beta" "github:microsoftgraph/msgraph-typescript-typings#beta"
@@ -1408,10 +1408,15 @@
   version "1.4.0"
   resolved "https://codeload.github.com/microsoftgraph/msgraph-typescript-typings/tar.gz/566d9d208d78465a806a5280e783f8e3db93cd81"
 
-"@microsoft/microsoft-graph-types@^1.12.0", "@microsoft/microsoft-graph-types@^1.23.0":
+"@microsoft/microsoft-graph-types@^1.12.0":
   version "1.23.0"
   resolved "https://registry.yarnpkg.com/@microsoft/microsoft-graph-types/-/microsoft-graph-types-1.23.0.tgz#eecb4c322e02f32b0b672e9688df71bdaf929eb8"
   integrity sha512-kP9wTN9MONvbi2cdSHIHqEES/PI2NblwIyVlaU4FvwLnlz3PPE6KYhhUdji8bVhF6jGaYtvCtYEpMdIHQShyNg==
+
+"@microsoft/microsoft-graph-types@^1.27.0":
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/microsoft-graph-types/-/microsoft-graph-types-1.27.0.tgz#03597b9a7f4b239916a0872f74364b47b9b8e58a"
+  integrity sha512-PVrKqibJM+dLCRjODVhC3ImcK44F0zCpKP/CiyWDgYzENl4mCxRNGGbHbCuTEAGKOngYWHWiPg3zGApZbO82xA==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
