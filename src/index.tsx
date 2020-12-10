@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
-import {Providers, MsalProvider} from '@microsoft/mgt';
+import { Providers } from '@microsoft/mgt-element';
+import { MsalProvider } from '@microsoft/mgt-msal-provider';
 
 Providers.globalProvider = new MsalProvider({
   clientId: 'a974dfa0-9f57-49b9-95db-90f04ce2111a',

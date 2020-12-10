@@ -1,7 +1,7 @@
 // These helpers are proposed helpers for @microsoft/mgt-react
 
+import { equals, prepScopes, Providers, ProviderState } from "@microsoft/mgt-element";
 import { useCallback, useEffect, useState } from "react";
-import { equals, prepScopes, Providers, ProviderState } from "@microsoft/mgt";
 
 export function useIsSignedIn(): [boolean] {
   const [isSignedIn, setIsSignedIn] = useState(false);

@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Login, Person } from '@microsoft/mgt-react';
-import { PersonViewType} from '@microsoft/mgt';
+import { Login, Person, PersonViewType } from '@microsoft/mgt-react';
 import { useGet, useIsSignedIn } from './mgt';
 import { DetailsList, IColumn, SelectionMode, Spinner, SpinnerSize } from '@fluentui/react';
 import { Message, User } from '@microsoft/microsoft-graph-types'
