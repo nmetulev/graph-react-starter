@@ -1452,40 +1452,40 @@
   resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.139.tgz#d5d9c5a04d08054008f71defcc5a1abb2ecb743a"
   integrity sha512-nqKpS5lfFaJGDATrwT+T2hM4WSMlBDwfh9W7+xgqfOQkV6h8y7uZq8Exro9C276Y3qd7M6jZ3pavSmsWgLk79w==
 
-"@microsoft/mgt-components@2.0.0-preview.6959a48":
-  version "2.0.0-preview.6959a48"
-  resolved "https://registry.yarnpkg.com/@microsoft/mgt-components/-/mgt-components-2.0.0-preview.6959a48.tgz#f93753db5db4e640f0f35de6fb8bde56c3cd4463"
-  integrity sha512-wEBuyvWOyoogPzsLkxH3Q9+ZFuUDNoL/wihVPgPgPHYFCBu2FVR4C1TOP7xIB2tzhSDllVxj+pV6C7gjvlHL/w==
+"@microsoft/mgt-components@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/mgt-components/-/mgt-components-2.0.0.tgz#85c54e1f41785d7accba3c9054dbc97576949a79"
+  integrity sha512-8IFMTNVVOxEbeOEqJlW2bjwBMsOmOqueL7ceXz7nQO91kl6DhdfUt4FqjlYf2iV2lN/l8GB2NpKTyyyZbUSKOg==
   dependencies:
-    "@microsoft/mgt-element" "2.0.0-preview.6959a48"
+    "@microsoft/mgt-element" "2.0.0"
     "@microsoft/microsoft-graph-types" "^1.27.0"
     "@microsoft/microsoft-graph-types-beta" "github:microsoftgraph/msgraph-typescript-typings#beta"
     office-ui-fabric-core "11.0.0"
 
-"@microsoft/mgt-element@2.0.0-preview.6959a48":
-  version "2.0.0-preview.6959a48"
-  resolved "https://registry.yarnpkg.com/@microsoft/mgt-element/-/mgt-element-2.0.0-preview.6959a48.tgz#577ead7e7d1e2e376093dbea3e98daae4d946380"
-  integrity sha512-VwF5myKOGFk3hBZE32XCjVPFFz5kI3Yog9KnNR5ugGaYUSgRlBuNVAJtuf+hmluw+Yg62tMgQE5+PObY7tBmnA==
+"@microsoft/mgt-element@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/mgt-element/-/mgt-element-2.0.0.tgz#e87c849ded63407c2ecf5f03e3eebd6a6a554e3a"
+  integrity sha512-p/wffMzkrBFIUapRDu/1WCI4rPmuzOlhks5JBuJRGbMHyH6sYTuGMwsT9syWPKo1TARdObPWi9FsSsTA5ZF4jA==
   dependencies:
     "@microsoft/microsoft-graph-client" "^2.1.1"
     idb "^5.0.7"
     lit-element "^2.4.0"
 
-"@microsoft/mgt-msal-provider@^2.0.0-preview.6959a48":
-  version "2.0.0-preview.6959a48"
-  resolved "https://registry.yarnpkg.com/@microsoft/mgt-msal-provider/-/mgt-msal-provider-2.0.0-preview.6959a48.tgz#3e5dc9e44d4a0e39e237cad623c6b1dbc962ee9b"
-  integrity sha512-fHPZegc5IORVbMnRoOYeiLtcOEhQ1jM6RvHcL4URw+k/ohD96l+Xm+ds67cvTvVwbWjsiVY6stBLgUjkUD1Qrw==
+"@microsoft/mgt-msal-provider@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/mgt-msal-provider/-/mgt-msal-provider-2.0.0.tgz#6996733c9a4705d98f3182b6d4eed59b99649871"
+  integrity sha512-QH6PortJ4YZ7n5BWQzqpiiBTlVkK+BAcFn3XU6Gqo2CKTqAEtp7/dd+SEbEHfNInpzxdhxLAOH+biVvzcq2gfw==
   dependencies:
-    "@microsoft/mgt-element" "2.0.0-preview.6959a48"
+    "@microsoft/mgt-element" "2.0.0"
     msal "^1.4.4"
 
-"@microsoft/mgt-react@^2.0.0-preview.6959a48":
-  version "2.0.0-preview.6959a48"
-  resolved "https://registry.yarnpkg.com/@microsoft/mgt-react/-/mgt-react-2.0.0-preview.6959a48.tgz#a7a9bd3ce8590dd4359f992f12543e550b94fd34"
-  integrity sha512-cQH9CWryMvVaMZM4yfpFMQTC/gajhhnpHACX6ir6MpOwRPdz+fTEKDmz7+OVK7vc1TYyYnSBp/Aud+BOTYN1JA==
+"@microsoft/mgt-react@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/mgt-react/-/mgt-react-2.0.0.tgz#66fc91b572c695d99c94d5fa2054df6eacdc1718"
+  integrity sha512-zLSAfZle8qCDFY6rCSu2Mpx56zFZfOckZWK28haNU9Jni/jGyX/9rThU/xSLgt2AqSpiSfjEpePincOMwUa3rA==
   dependencies:
-    "@microsoft/mgt-components" "2.0.0-preview.6959a48"
-    "@microsoft/mgt-element" "2.0.0-preview.6959a48"
+    "@microsoft/mgt-components" "2.0.0"
+    "@microsoft/mgt-element" "2.0.0"
     "@microsoft/microsoft-graph-types" "^1.27.0"
     "@microsoft/microsoft-graph-types-beta" "github:microsoftgraph/msgraph-typescript-typings#beta"
     wc-react "^0.3.1"
